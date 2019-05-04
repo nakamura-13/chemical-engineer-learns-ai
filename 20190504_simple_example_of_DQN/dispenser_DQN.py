@@ -113,7 +113,7 @@ log = [] # 結果のプロット用
 
 for episode in range(NUM_EPISODES):
     env = Dispenser(0)
-    total_reward = 0　# 1エピソードでの報酬の合計を保持する
+    total_reward = 0 # 1エピソードでの報酬の合計を保持する
 
     for s in range(NUM_STEPS):
         ## 現在の状態を確認
